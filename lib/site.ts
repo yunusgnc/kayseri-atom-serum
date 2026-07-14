@@ -16,7 +16,7 @@ export const site = {
 
 export const routes = [
   { href: "/#anasayfa", label: "Ana Sayfa" },
-  { href: "/#hizmetler", label: "Hizmetlerimiz" },
+  { href: "/hizmetler", label: "Hizmetlerimiz" },
   { href: "/#hakkimizda", label: "Hakkımızda" },
   { href: "/#sikca-sorulan-sorular", label: "Sıkça Sorulan Sorular" },
 ] as const;

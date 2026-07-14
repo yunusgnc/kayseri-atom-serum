@@ -12,11 +12,12 @@ import { InformationSlider } from "@/components/InformationSlider";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ServiceCard } from "@/components/ServiceCard";
 import { faqs, site } from "@/lib/site";
+import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
   title: { absolute: "Kayseri Atom Serum | Kayseri Sağlık Kabini" },
   description:
-    "Kayseri Atom Serum Sağlık Kabini; Sahabiye, Kocasinan ve Kayseri bölgesinde sağlık kabini hizmetleri sunar. Bilgi ve randevu için 0551 860 01 38 numarasından iletişime geçin.",
+    "Kayseri Atom Serum Sağlık Kabini; atom serum, vitamin-mineral serumları, glutatyon, B12 ve destek uygulamaları sunar. Bilgi ve randevu alın.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Kayseri Atom Serum | Kayseri Sağlık Kabini",
@@ -26,33 +27,6 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
 };
-
-const services = [
-  {
-    title: "Sağlık Kabini Bilgilendirmesi",
-    description: "Sağlık kabini hizmetlerinin güncel kapsamını doğrudan işletmeden öğrenebilirsiniz.",
-  },
-  {
-    title: "Bilgi ve Randevu",
-    description: "Uygunluk ve randevu süreci için telefon veya WhatsApp üzerinden iletişim kurabilirsiniz.",
-  },
-  {
-    title: "Telefonla İletişim",
-    description: "0551 860 01 38 numarasını arayarak Kayseri Atom Serum hakkında bilgi isteyebilirsiniz.",
-  },
-  {
-    title: "WhatsApp İletişimi",
-    description: "Hazır Türkçe mesaj bağlantısıyla hizmet ve randevu talebinizi kolayca iletebilirsiniz.",
-  },
-  {
-    title: "Kayseri Hizmet Bölgesi",
-    description: "Ana hizmet bölgesi Kayseri'dir. Kapsam ve uygunluk bilgisi için doğrudan teyit alabilirsiniz.",
-  },
-  {
-    title: "Sahabiye Konumu",
-    description: "Sağlık kabini Sahabiye Mahallesi, Arda Sokak, Kocasinan / Kayseri adresindedir.",
-  },
-] as const;
 
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
@@ -79,6 +53,15 @@ const faqJsonLd = {
     name: faq.question,
     acceptedAnswer: { "@type": "Answer", text: faq.answer },
   })),
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: site.name,
+  alternateName: "Kayseri Atom Serum Sağlık Kabini",
+  url: `${site.url}/`,
+  inLanguage: "tr-TR",
 };
 
 export default function HomePage() {
@@ -123,10 +106,19 @@ export default function HomePage() {
 
         <section id="hizmetler" className="section">
           <div className="w-layout-blockcontainer container w-container">
-            <SectionTitle eyebrow="Hizmet Bilgileri" title="Kayseri Atom Serum ile iletişim seçenekleri" centered />
+            <SectionTitle eyebrow="Hizmetlerimiz" title="Kayseri'de serum ve destek uygulamaları" centered />
+            <p className="section-intro centered-intro">
+              Her uygulama kişisel sağlık durumu ve profesyonel değerlendirme doğrultusunda planlanır. Hizmet kapsamını inceleyin, ayrıntılı bilgi ve randevu için bize ulaşın.
+            </p>
             <div className="w-layout-grid service-grid">
               {services.map((service, index) => (
-                <ServiceCard key={service.title} index={index + 1} {...service} />
+                <ServiceCard
+                  key={service.slug}
+                  index={index + 1}
+                  title={service.title}
+                  description={service.summary}
+                  href={`/hizmetler/${service.slug}`}
+                />
               ))}
             </div>
           </div>
@@ -227,6 +219,7 @@ export default function HomePage() {
       <FloatingActions />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd).replace(/</g, "\\u003c") }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c") }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c") }} />
     </>
   );
 }

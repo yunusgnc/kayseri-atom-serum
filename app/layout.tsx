@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Kayseri Atom Serum",
   },
   description:
-    "Kayseri Atom Serum Sağlık Kabini; Sahabiye, Kocasinan ve Kayseri bölgesinde sağlık kabini hizmetleri hakkında bilgi ve randevu iletişimi sağlar.",
+    "Kayseri Atom Serum Sağlık Kabini; serum, vitamin, mineral ve destek uygulamaları hakkında bilgi ve randevu hizmeti sağlar.",
   applicationName: site.name,
   authors: [{ name: site.name }],
   creator: site.name,

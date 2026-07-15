@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   if (!service) return {};
 
   const title = service.slug === "atom-serum"
-    ? "Kayseri Atom Serum Uygulaması | Sağlık Kabini"
+    ? "Erciyesevler Atom Serum Uygulaması | Sağlık Kabini"
     : `Kayseri ${service.title} | Atom Serum Sağlık Kabini`;
   const canonical = `/hizmetler/${service.slug}`;
 
@@ -38,9 +38,9 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
       url: canonical,
       images: [
         {
-          url: "/images/66793c284401d0163d24dd8e_banner.webp",
-          width: 1528,
-          height: 1825,
+          url: "/images/hero-serum-hazirligi.webp",
+          width: 1148,
+          height: 1370,
           alt: `Kayseri ${service.title} hizmeti`,
         },
       ],
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
       card: "summary_large_image",
       title,
       description: service.metaDescription,
-      images: ["/images/66793c284401d0163d24dd8e_banner.webp"],
+      images: ["/images/hero-serum-hazirligi.webp"],
     },
     robots: { index: true, follow: true },
   };

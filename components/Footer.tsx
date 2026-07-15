@@ -12,7 +12,7 @@ export function Footer() {
             <div className="footer-detail">
               <BrandLogo footer />
               <p className="paragraph footer-paragraph">
-                Kayseri Atom Serum Sağlık Kabini, Sahabiye ve Kocasinan başta olmak üzere Kayseri bölgesinde bilgi ve randevu talepleriniz için iletişim sağlar.
+                Erciyesevler Atom Serum Sağlık Kabini, Erciyesevler ve Kocasinan başta olmak üzere Kayseri bölgesinde bilgi ve randevu talepleriniz için iletişim sağlar.
               </p>
               <a href={site.phoneHref} className="footer-contact-link">{site.phoneDisplay}</a>
               <a href={site.whatsapp} target="_blank" rel="noopener noreferrer" className="footer-contact-link">WhatsApp ile yazın</a>
@@ -35,9 +35,10 @@ export function Footer() {
             <div className="footer-detail">
               <h2 className="h3-heading footer-heading">İletişim Bilgileri</h2>
               <address className="paragraph footer-address">
-                Sağlık Kabini - Kayseri Atom Serum<br />
-                Sahabiye Mahallesi, Arda Sokak<br />
-                38015 Kocasinan / Kayseri
+                Sağlık Kabini - Erciyesevler Atom Serum<br />
+                Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi<br />
+                İpek Diamond Sitesi No: 11/C<br />
+                38030 Kocasinan / Kayseri
               </address>
               <div className="footer-information-form">
                 <NewsletterForm />
@@ -48,7 +49,7 @@ export function Footer() {
       </div>
       <div className="copyright-div">
         <div className="w-layout-blockcontainer w-container">
-          <p className="copyright-text">© {new Date().getFullYear()} Kayseri Atom Serum. Tüm hakları saklıdır.</p>
+          <p className="copyright-text">© {new Date().getFullYear()} Erciyesevler Atom Serum. Tüm hakları saklıdır.</p>
         </div>
       </div>
     </footer>

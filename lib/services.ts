@@ -19,12 +19,12 @@ export const services = [
     slug: "atom-serum",
     title: "Atom Serum",
     metaDescription:
-      "Kayseri atom serum uygulaması hakkında kapsam, uygunluk değerlendirmesi ve randevu bilgisi. Sahabiye, Kocasinan'daki sağlık kabinimize ulaşın.",
+      "Kayseri atom serum uygulaması hakkında kapsam, uygunluk değerlendirmesi ve randevu bilgisi. Erciyesevler, Kocasinan'daki sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de atom serum hakkında bilgi almak, size uygun içeriğin nasıl belirlendiğini öğrenmek ve randevu oluşturmak için sağlık kabinimizle iletişime geçebilirsiniz.",
     overview: [
       "Atom serum adı, vitamin ve mineral gibi bileşenleri içerebilen destek uygulamaları için kullanılan genel bir ifadedir. Tek ve herkes için standart bir formülü yoktur; içerik, doz ve uygulama gerekliliği kişinin sağlık durumu değerlendirilerek belirlenmelidir.",
-      "Kayseri Atom Serum Sağlık Kabini’nde süreç; mevcut şikâyetlerin, hastalıkların, kullanılan ilaçların ve varsa güncel tetkiklerin konuşulmasıyla başlar. Uygun görülmeyen durumlarda uygulama yapılmaması veya ilgili sağlık kuruluşuna yönlendirme en doğru yaklaşım olabilir.",
+      "Erciyesevler Atom Serum Sağlık Kabini’nde süreç; mevcut şikâyetlerin, hastalıkların, kullanılan ilaçların ve varsa güncel tetkiklerin konuşulmasıyla başlar. Uygun görülmeyen durumlarda uygulama yapılmaması veya ilgili sağlık kuruluşuna yönlendirme en doğru yaklaşım olabilir.",
     ],
     assessmentPoints: [
       "Mevcut hastalıklar, alerji öyküsü ve düzenli kullanılan ilaçlar",
@@ -45,7 +45,7 @@ export const services = [
       {
         question: "Kayseri atom serum randevusu nasıl alınır?",
         answer:
-          "Telefon veya WhatsApp üzerinden sağlık kabinimize ulaşarak ön bilgi verebilir ve Sahabiye, Kocasinan konumumuz için randevu talep edebilirsiniz.",
+          "Telefon veya WhatsApp üzerinden sağlık kabinimize ulaşarak ön bilgi verebilir ve Erciyesevler, Kocasinan konumumuz için randevu talep edebilirsiniz.",
       },
     ],
     relatedSlugs: ["vitamin-serumlari", "mineral-destek-serumlari", "enerji-ve-yorgunluk-serumlari"],
@@ -54,7 +54,7 @@ export const services = [
     slug: "glutatyon-tedavisi",
     title: "Glutatyon Tedavisi",
     metaDescription:
-      "Kayseri glutatyon tedavisi hakkında uygulama, değerlendirme ve randevu bilgisi. Sahabiye, Kocasinan'daki sağlık kabinimizle iletişime geçin.",
+      "Kayseri glutatyon tedavisi hakkında uygulama, değerlendirme ve randevu bilgisi. Erciyesevler, Kocasinan'daki sağlık kabinimizle iletişime geçin.",
     summary:
       "Kayseri’de glutatyon tedavisi hakkında güvenilir süreç bilgisi almak ve kişisel uygunluğunuzu değerlendirmek için bizimle iletişime geçin.",
     overview: [
@@ -80,7 +80,7 @@ export const services = [
       {
         question: "Kayseri'de glutatyon tedavisi için nasıl ulaşabilirim?",
         answer:
-          "0551 860 01 38 numarasından arayabilir veya WhatsApp üzerinden Sahabiye'deki sağlık kabinimizden bilgi ve randevu isteyebilirsiniz.",
+          "0538 697 69 73 numarasından arayabilir veya WhatsApp üzerinden Erciyesevler'deki sağlık kabinimizden bilgi ve randevu isteyebilirsiniz.",
       },
     ],
     relatedSlugs: ["antioksidan-tedavileri", "c-vitamini-serumu", "atom-serum"],
@@ -89,7 +89,7 @@ export const services = [
     slug: "vitamin-serumlari",
     title: "Vitamin Serumları",
     metaDescription:
-      "Kayseri vitamin serumları için içerik, uygunluk ve uygulama süreci hakkında bilgi alın. Sahabiye, Kocasinan sağlık kabininden randevu isteyin.",
+      "Kayseri vitamin serumları için içerik, uygunluk ve uygulama süreci hakkında bilgi alın. Erciyesevler, Kocasinan sağlık kabininden randevu isteyin.",
     summary:
       "Kayseri vitamin serumları hakkında içerik ve uygulama seçeneklerini öğrenmek, kişisel değerlendirme ve randevu için sağlık kabinimize ulaşabilirsiniz.",
     overview: [
@@ -124,7 +124,7 @@ export const services = [
     slug: "mineral-destek-serumlari",
     title: "Mineral Destek Serumları",
     metaDescription:
-      "Kayseri mineral destek serumları hakkında değerlendirme, uygulama ve randevu bilgisi alın. Sahabiye, Kocasinan sağlık kabinimize ulaşın.",
+      "Kayseri mineral destek serumları hakkında değerlendirme, uygulama ve randevu bilgisi alın. Erciyesevler, Kocasinan sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de mineral destek serumlarının kapsamı ve size uygun olup olmadığı hakkında bilgi almak için profesyonel ön değerlendirme talep edebilirsiniz.",
     overview: [
@@ -150,7 +150,7 @@ export const services = [
       {
         question: "Kayseri mineral destek serumu bilgisi nereden alınır?",
         answer:
-          "Kocasinan Sahabiye'deki sağlık kabinimize telefon veya WhatsApp üzerinden ulaşarak kapsam ve randevu bilgisi alabilirsiniz.",
+          "Kocasinan Erciyesevler'deki sağlık kabinimize telefon veya WhatsApp üzerinden ulaşarak kapsam ve randevu bilgisi alabilirsiniz.",
       },
     ],
     relatedSlugs: ["magnezyum-destegi", "demir-takviyesi", "cinko-takviyesi"],
@@ -159,7 +159,7 @@ export const services = [
     slug: "bagisiklik-guclendirme-serumlari",
     title: "Bağışıklık Güçlendirme Serumları",
     metaDescription:
-      "Kayseri bağışıklık destek serumları için içerik, uygunluk ve randevu bilgisi alın. Sahabiye, Kocasinan'daki sağlık kabinimize ulaşın.",
+      "Kayseri bağışıklık destek serumları için içerik, uygunluk ve randevu bilgisi alın. Erciyesevler, Kocasinan'daki sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de bağışıklık desteği amacıyla sunulan serumlar hakkında bilgi alın; kişisel ihtiyacınız ve güvenli uygulama koşulları birlikte değerlendirilsin.",
     overview: [
@@ -185,7 +185,7 @@ export const services = [
       {
         question: "Kayseri bağışıklık destek serumu randevusu nasıl alınır?",
         answer:
-          "Telefon veya WhatsApp üzerinden Sahabiye, Kocasinan'daki sağlık kabinimize ulaşarak bilgi ve randevu talep edebilirsiniz.",
+          "Telefon veya WhatsApp üzerinden Erciyesevler, Kocasinan'daki sağlık kabinimize ulaşarak bilgi ve randevu talep edebilirsiniz.",
       },
     ],
     relatedSlugs: ["vitamin-serumlari", "c-vitamini-serumu", "cinko-takviyesi"],
@@ -194,7 +194,7 @@ export const services = [
     slug: "enerji-ve-yorgunluk-serumlari",
     title: "Enerji ve Yorgunluk Serumları",
     metaDescription:
-      "Kayseri enerji ve yorgunluk serumları hakkında güvenli değerlendirme ve randevu bilgisi alın. Sahabiye'deki sağlık kabinimize ulaşın.",
+      "Kayseri enerji ve yorgunluk serumları hakkında güvenli değerlendirme ve randevu bilgisi alın. Erciyesevler'deki sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de yorgunluk için destek serumu düşünüyorsanız önce olası nedenlerin ve kişisel uygunluğun değerlendirilmesi hakkında bilgi alın.",
     overview: [
@@ -220,7 +220,7 @@ export const services = [
       {
         question: "Kayseri yorgunluk serumu için nasıl bilgi alırım?",
         answer:
-          "0551 860 01 38 numarasını arayabilir ya da WhatsApp üzerinden sağlık kabinimize kısa bir ön bilgi iletebilirsiniz.",
+          "0538 697 69 73 numarasını arayabilir ya da WhatsApp üzerinden sağlık kabinimize kısa bir ön bilgi iletebilirsiniz.",
       },
     ],
     relatedSlugs: ["b12-vitamini-enjeksiyonu", "demir-takviyesi", "magnezyum-destegi"],
@@ -229,7 +229,7 @@ export const services = [
     slug: "c-vitamini-serumu",
     title: "C Vitamini Serumu",
     metaDescription:
-      "Kayseri C vitamini serumu için uygunluk, uygulama süreci ve randevu bilgisi alın. Sahabiye, Kocasinan sağlık kabinimizle iletişime geçin.",
+      "Kayseri C vitamini serumu için uygunluk, uygulama süreci ve randevu bilgisi alın. Erciyesevler, Kocasinan sağlık kabinimizle iletişime geçin.",
     summary:
       "Kayseri’de C vitamini serumu hakkında doz, uygulama ve kişisel uygunluk sürecini öğrenmek için sağlık kabinimizden bilgi alabilirsiniz.",
     overview: [
@@ -255,7 +255,7 @@ export const services = [
       {
         question: "Kayseri C vitamini serumu randevusu nasıl oluşturulur?",
         answer:
-          "Sahabiye'deki sağlık kabinimize telefon veya WhatsApp üzerinden ulaşarak ön değerlendirme ve randevu bilgisi isteyebilirsiniz.",
+          "Erciyesevler'deki sağlık kabinimize telefon veya WhatsApp üzerinden ulaşarak ön değerlendirme ve randevu bilgisi isteyebilirsiniz.",
       },
     ],
     relatedSlugs: ["vitamin-serumlari", "glutatyon-tedavisi", "antioksidan-tedavileri"],
@@ -264,7 +264,7 @@ export const services = [
     slug: "b12-vitamini-enjeksiyonu",
     title: "B12 Vitamini Enjeksiyonu",
     metaDescription:
-      "Kayseri B12 vitamini enjeksiyonu için tetkik, uygunluk ve randevu süreci hakkında bilgi alın. Sahabiye sağlık kabinimize ulaşın.",
+      "Kayseri B12 vitamini enjeksiyonu için tetkik, uygunluk ve randevu süreci hakkında bilgi alın. Erciyesevler sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de B12 vitamini enjeksiyonu öncesi eksiklik, hekim önerisi ve uygulama planının nasıl değerlendirildiği hakkında bilgi alın.",
     overview: [
@@ -299,7 +299,7 @@ export const services = [
     slug: "magnezyum-destegi",
     title: "Magnezyum Desteği",
     metaDescription:
-      "Kayseri magnezyum desteği için ihtiyaç, uygunluk ve uygulama süreci hakkında bilgi alın. Sahabiye, Kocasinan sağlık kabinimize ulaşın.",
+      "Kayseri magnezyum desteği için ihtiyaç, uygunluk ve uygulama süreci hakkında bilgi alın. Erciyesevler, Kocasinan sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de magnezyum desteği seçenekleri, kişisel ihtiyaç ve güvenli uygulama koşulları hakkında sağlık kabinimizden bilgi alabilirsiniz.",
     overview: [
@@ -325,7 +325,7 @@ export const services = [
       {
         question: "Kayseri magnezyum desteği için nereden bilgi alabilirim?",
         answer:
-          "Sahabiye, Kocasinan'daki sağlık kabinimize 0551 860 01 38 numarasından veya WhatsApp üzerinden ulaşabilirsiniz.",
+          "Erciyesevler, Kocasinan'daki sağlık kabinimize 0538 697 69 73 numarasından veya WhatsApp üzerinden ulaşabilirsiniz.",
       },
     ],
     relatedSlugs: ["mineral-destek-serumlari", "enerji-ve-yorgunluk-serumlari", "aminoasit-serumlari"],
@@ -334,7 +334,7 @@ export const services = [
     slug: "demir-takviyesi",
     title: "Demir Takviyesi",
     metaDescription:
-      "Kayseri demir takviyesi için tahlil, hekim planı, uygulama ve randevu bilgisi alın. Sahabiye, Kocasinan sağlık kabinimize ulaşın.",
+      "Kayseri demir takviyesi için tahlil, hekim planı, uygulama ve randevu bilgisi alın. Erciyesevler, Kocasinan sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de demir takviyesi uygulaması için tahlil ve hekim planına dayalı güvenli süreç hakkında sağlık kabinimizden bilgi alın.",
     overview: [
@@ -369,7 +369,7 @@ export const services = [
     slug: "cinko-takviyesi",
     title: "Çinko Takviyesi",
     metaDescription:
-      "Kayseri çinko takviyesi için ihtiyaç, doz, güvenli kullanım ve randevu bilgisi alın. Sahabiye, Kocasinan sağlık kabinimize ulaşın.",
+      "Kayseri çinko takviyesi için ihtiyaç, doz, güvenli kullanım ve randevu bilgisi alın. Erciyesevler, Kocasinan sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de çinko takviyesi hakkında ihtiyaç, uygulama seçeneği ve güvenli kullanım sürecini öğrenmek için bizimle iletişime geçin.",
     overview: [
@@ -395,7 +395,7 @@ export const services = [
       {
         question: "Kayseri çinko takviyesi için nasıl bilgi alabilirim?",
         answer:
-          "Telefon veya WhatsApp üzerinden Sahabiye'deki sağlık kabinimize ulaşarak mevcut uygulama kapsamını ve randevu durumunu öğrenebilirsiniz.",
+          "Telefon veya WhatsApp üzerinden Erciyesevler'deki sağlık kabinimize ulaşarak mevcut uygulama kapsamını ve randevu durumunu öğrenebilirsiniz.",
       },
     ],
     relatedSlugs: ["mineral-destek-serumlari", "bagisiklik-guclendirme-serumlari", "vitamin-serumlari"],
@@ -404,7 +404,7 @@ export const services = [
     slug: "aminoasit-serumlari",
     title: "Aminoasit Serumları",
     metaDescription:
-      "Kayseri aminoasit serumları için içerik, kişisel uygunluk ve uygulama süreci hakkında bilgi alın. Sahabiye sağlık kabinimizden randevu isteyin.",
+      "Kayseri aminoasit serumları için içerik, kişisel uygunluk ve uygulama süreci hakkında bilgi alın. Erciyesevler sağlık kabinimizden randevu isteyin.",
     summary:
       "Kayseri’de aminoasit serumlarının kapsamı, hangi durumlarda değerlendirilebildiği ve kişisel uygunluk süreci hakkında bilgi alın.",
     overview: [
@@ -430,7 +430,7 @@ export const services = [
       {
         question: "Kayseri aminoasit serumu randevusu nasıl alınır?",
         answer:
-          "Sağlık kabinimize telefon veya WhatsApp üzerinden ulaşarak ön bilgi paylaşabilir ve Sahabiye konumumuz için randevu isteyebilirsiniz.",
+          "Sağlık kabinimize telefon veya WhatsApp üzerinden ulaşarak ön bilgi paylaşabilir ve Erciyesevler konumumuz için randevu isteyebilirsiniz.",
       },
     ],
     relatedSlugs: ["enerji-ve-yorgunluk-serumlari", "magnezyum-destegi", "vitamin-serumlari"],
@@ -439,7 +439,7 @@ export const services = [
     slug: "antioksidan-tedavileri",
     title: "Antioksidan Tedavileri",
     metaDescription:
-      "Kayseri antioksidan tedavileri hakkında içerik, uygunluk değerlendirmesi ve randevu bilgisi alın. Sahabiye sağlık kabinimize ulaşın.",
+      "Kayseri antioksidan tedavileri hakkında içerik, uygunluk değerlendirmesi ve randevu bilgisi alın. Erciyesevler sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de antioksidan tedavileri adıyla sunulan desteklerin kapsamı, kanıt sınırları ve kişisel uygunluk süreci hakkında bilgi alın.",
     overview: [
@@ -465,7 +465,7 @@ export const services = [
       {
         question: "Kayseri antioksidan tedavileri için nasıl ulaşabilirim?",
         answer:
-          "0551 860 01 38 numarasından arayabilir veya WhatsApp üzerinden sağlık kabinimizden içerik ve randevu bilgisi isteyebilirsiniz.",
+          "0538 697 69 73 numarasından arayabilir veya WhatsApp üzerinden sağlık kabinimizden içerik ve randevu bilgisi isteyebilirsiniz.",
       },
     ],
     relatedSlugs: ["glutatyon-tedavisi", "c-vitamini-serumu", "nad-tedavisi"],
@@ -474,7 +474,7 @@ export const services = [
     slug: "nad-tedavisi",
     title: "NAD+ Tedavisi",
     metaDescription:
-      "Kayseri NAD+ tedavisi hakkında güncel kapsam, kanıt sınırları, uygunluk ve randevu bilgisi alın. Sahabiye sağlık kabinimize ulaşın.",
+      "Kayseri NAD+ tedavisi hakkında güncel kapsam, kanıt sınırları, uygunluk ve randevu bilgisi alın. Erciyesevler sağlık kabinimize ulaşın.",
     summary:
       "Kayseri’de NAD+ tedavisi hakkında uygulama kapsamını, kişisel uygunluğu ve beklentilerin neden dikkatle değerlendirilmesi gerektiğini öğrenin.",
     overview: [
@@ -500,7 +500,7 @@ export const services = [
       {
         question: "Kayseri NAD+ tedavisi sunuluyor mu?",
         answer:
-          "Güncel hizmet kapsamını, uygunluk koşullarını ve randevu durumunu 0551 860 01 38 numarasından veya WhatsApp üzerinden teyit edebilirsiniz.",
+          "Güncel hizmet kapsamını, uygunluk koşullarını ve randevu durumunu 0538 697 69 73 numarasından veya WhatsApp üzerinden teyit edebilirsiniz.",
       },
     ],
     relatedSlugs: ["antioksidan-tedavileri", "enerji-ve-yorgunluk-serumlari", "atom-serum"],

@@ -1,17 +1,17 @@
 export const site = {
-  name: "Kayseri Atom Serum",
-  businessName: "Kayseri Atom Serum Sağlık Kabini",
+  name: "Erciyesevler Atom Serum",
+  businessName: "Erciyesevler Atom Serum Sağlık Kabini",
   url: "https://kayseriatomserum.com",
-  phoneDisplay: "0551 860 01 38",
-  phoneHref: "tel:+905518600138",
-  telephone: "+905518600138",
+  phoneDisplay: "0538 697 69 73",
+  phoneHref: "tel:+905386976973",
+  telephone: "+905386976973",
   whatsapp:
-    "https://wa.me/905518600138?text=Merhaba%2C%20Kayseri%20Atom%20Serum%20hizmetleri%20hakk%C4%B1nda%20bilgi%20ve%20randevu%20almak%20istiyorum.",
-  streetAddress: "Sahabiye Mahallesi, Arda Sokak",
-  postalCode: "38015",
+    "https://wa.me/905386976973?text=Merhaba%2C%20Erciyesevler%20Atom%20Serum%20hizmetleri%20hakk%C4%B1nda%20bilgi%20ve%20randevu%20almak%20istiyorum.",
+  streetAddress: "Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi, İpek Diamond Sitesi No: 11/C",
+  postalCode: "38030",
   locality: "Kocasinan",
   region: "Kayseri",
-  address: "Sahabiye Mahallesi, Arda Sokak, 38015 Kocasinan / Kayseri",
+  address: "Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi, İpek Diamond Sitesi No: 11/C, 38030 Kocasinan / Kayseri",
 } as const;
 
 export const routes = [
@@ -23,14 +23,14 @@ export const routes = [
 
 export const faqs = [
   {
-    question: "Kayseri Atom Serum nerede bulunuyor?",
+    question: "Erciyesevler Atom Serum nerede bulunuyor?",
     answer:
-      "Kayseri Atom Serum Sağlık Kabini; Sahabiye Mahallesi, Arda Sokak, 38015 Kocasinan / Kayseri adresinde yer alır.",
+      "Erciyesevler Atom Serum Sağlık Kabini; Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi, İpek Diamond Sitesi No: 11/C, 38030 Kocasinan / Kayseri adresinde yer alır.",
   },
   {
     question: "Bilgi ve randevu için nasıl iletişime geçebilirim?",
     answer:
-      "0551 860 01 38 numaralı telefonu arayabilir veya aynı numara üzerinden WhatsApp bağlantısını kullanabilirsiniz.",
+      "0538 697 69 73 numaralı telefonu arayabilir veya aynı numara üzerinden WhatsApp bağlantısını kullanabilirsiniz.",
   },
   {
     question: "WhatsApp üzerinden bilgi alabilir miyim?",
@@ -45,6 +45,6 @@ export const faqs = [
   {
     question: "Çalışma saatlerini nereden öğrenebilirim?",
     answer:
-      "Çalışma saatleri için 0551 860 01 38 numaralı telefondan güncel bilgi alabilirsiniz.",
+      "Çalışma saatleri için 0538 697 69 73 numaralı telefondan güncel bilgi alabilirsiniz.",
   },
 ] as const;

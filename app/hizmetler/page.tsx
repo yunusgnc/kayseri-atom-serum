@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kayseri Serum ve Destek Uygulamaları",
     description:
-      "Kayseri Atom Serum Sağlık Kabini'nin serum, vitamin, mineral ve destek uygulamaları hakkında ayrıntılı bilgi alın.",
+      "Erciyesevler Atom Serum Sağlık Kabini'nin serum, vitamin, mineral ve destek uygulamaları hakkında ayrıntılı bilgi alın.",
     url: "/hizmetler",
     type: "website",
   },
@@ -34,7 +34,7 @@ const breadcrumbJsonLd = {
 const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Kayseri Atom Serum Hizmetleri",
+  name: "Erciyesevler Atom Serum Hizmetleri",
   itemListElement: services.map((service, index) => ({
     "@type": "ListItem",
     position: index + 1,
@@ -109,7 +109,7 @@ export default function ServicesPage() {
           <div className="w-layout-blockcontainer container w-container">
             <div className="service-cta-card">
               <div>
-                <span className="h4-heading">Sahabiye / Kocasinan</span>
+                <span className="h4-heading">Erciyesevler / Kocasinan</span>
                 <h2 className="h2-heading">Hangi hizmetin uygun olduğunu birlikte değerlendirelim</h2>
               </div>
               <Link href="/#iletisim" className="common-button w-button">Bilgi ve Randevu Alın</Link>

@@ -44,7 +44,7 @@ export function ContactModal() {
             </button>
             <div className="h4-heading">Bilgi ve randevu</div>
             <h2 id="modal-title" className="h2-heading modal-heading">
-              Kayseri Atom Serum ile iletişime geçin
+              Erciyesevler Atom Serum ile iletişime geçin
             </h2>
             <p className="paragraph">
               Hizmet kapsamı ve randevu süreci hakkında doğrudan bilgi alabilirsiniz.

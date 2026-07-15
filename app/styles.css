@@ -109,30 +109,17 @@ textarea:focus-visible {
 }
 
 .brand-logo {
-  color: var(--color--black);
-  width: 190px;
+  width: 220px;
   line-height: 1;
   text-decoration: none;
-  display: inline-flex;
-  flex-direction: column;
+  display: block;
   flex-shrink: 0;
 }
 
-.brand-logo span {
-  color: var(--color--blue-600);
-  font-family: var(--font-family--inter);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-}
-
-.brand-logo strong {
-  font-family: var(--font-family--space-grotesk);
-  font-size: 25px;
-  font-weight: 700;
-  letter-spacing: -0.04em;
-  margin-top: 4px;
+.brand-logo-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .common-button {
@@ -1244,6 +1231,19 @@ textarea:focus-visible {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+.floating-action-icon {
+  fill: currentColor;
+  flex: 0 0 auto;
+  width: 23px;
+  height: 23px;
+  display: block;
+}
+
+.floating-action-icon.whatsapp-icon {
+  width: 25px;
+  height: 25px;
+}
+
 .phone-action { background: var(--color--blue-600); }
 .whatsapp-action { background: #168a48; }
 .floating-label { font-size: 14px; font-weight: 600; }
@@ -1368,9 +1368,7 @@ textarea:focus-visible {
   .services-dropdown-heading { padding-right: 8px; padding-left: 8px; }
   .services-dropdown-heading span { font-size: 18px; }
   .services-dropdown-list a { padding-right: 8px; padding-left: 8px; }
-  .brand-logo { width: 155px; }
-  .brand-logo strong { font-size: 21px; }
-  .brand-logo span { font-size: 11px; }
+  .brand-logo { width: 170px; }
   .hero-section { padding-top: 118px; }
   .service-page-hero { padding-top: 105px; }
   .service-hero-content .h1-heading { font-size: 37px; line-height: 1.04; }

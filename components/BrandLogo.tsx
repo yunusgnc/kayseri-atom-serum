@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 type BrandLogoProps = {
@@ -9,10 +10,17 @@ export function BrandLogo({ footer = false }: BrandLogoProps) {
     <Link
       href="/#anasayfa"
       className={footer ? "footer-image-link brand-logo" : "logo-link brand-logo"}
-      aria-label="Kayseri Atom Serum ana sayfa"
+      aria-label="Erciyesevler Atom Serum ana sayfa"
     >
-      <span>Kayseri</span>
-      <strong>Atom Serum</strong>
+      <Image
+        src="/images/erciyesevler-atom-serum-logo.png"
+        width={1148}
+        height={345}
+        alt="Erciyesevler Atom Serum Kayseri"
+        className="brand-logo-image"
+        priority={!footer}
+        sizes={footer ? "220px" : "(max-width: 479px) 170px, 220px"}
+      />
     </Link>
   );
 }

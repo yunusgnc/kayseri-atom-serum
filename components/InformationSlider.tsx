@@ -3,9 +3,9 @@
 import { useRef, useState } from "react";
 
 const cards = [
-  { title: "Telefon", text: "0551 860 01 38 numarasını arayarak güncel bilgi isteyebilirsiniz." },
+  { title: "Telefon", text: "0538 697 69 73 numarasını arayarak güncel bilgi isteyebilirsiniz." },
   { title: "WhatsApp", text: "WhatsApp üzerinden hizmet kapsamı ve randevu süreci hakkında yazabilirsiniz." },
-  { title: "Konum", text: "Sağlık kabini Sahabiye Mahallesi, Arda Sokak, Kocasinan / Kayseri adresindedir." },
+  { title: "Konum", text: "Sağlık kabini Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi, İpek Diamond Sitesi No: 11/C, Kocasinan / Kayseri adresindedir." },
   { title: "Hizmet Bölgesi", text: "Ana hizmet bölgesi Kayseri'dir; ayrıntılar için doğrudan iletişime geçebilirsiniz." },
   { title: "Randevu", text: "Uygunluk ve randevu bilgisi telefon veya WhatsApp üzerinden paylaşılır." },
   { title: "Güncel Bilgi", text: "Çalışma saatleri ve hizmet detayları için sağlık kabininden teyit alabilirsiniz." },

@@ -5,16 +5,22 @@ import { useRef, useState } from "react";
 
 const slides = [
   {
-    src: "/images/66793c284401d0163d24dd8e_banner.webp",
-    alt: "Kayseri sağlık kabini hizmet ortamı",
+    src: "/images/hero-serum-hazirligi.webp",
+    alt: "Erciyesevler Atom Serum sağlık kabininde serum hazırlığı",
+    width: 1148,
+    height: 1370,
   },
   {
-    src: "/images/66793c284401d0163d24dd9f_banner1.webp",
-    alt: "Kayseri Atom Serum sağlık kabini görseli",
+    src: "/images/hero-serum-uygulamasi.webp",
+    alt: "Erciyesevler Atom Serum sağlık kabininde serum uygulaması",
+    width: 1148,
+    height: 1371,
   },
   {
-    src: "/images/66793c284401d0163d24dda0_banner2.webp",
-    alt: "Sahabiye sağlık kabini hizmet alanı",
+    src: "/images/hero-saglik-danismanligi.webp",
+    alt: "Erciyesevler Atom Serum sağlık danışmanlığı görüşmesi",
+    width: 1148,
+    height: 1370,
   },
 ] as const;
 
@@ -51,8 +57,8 @@ export function HeroSlider() {
               <Image
                 src={slide.src}
                 alt={slide.alt}
-                width={1528}
-                height={1825}
+                width={slide.width}
+                height={slide.height}
                 className="banner-image"
                 priority={index === 0}
                 sizes="(max-width: 767px) 90vw, (max-width: 991px) 489px, 47vw"

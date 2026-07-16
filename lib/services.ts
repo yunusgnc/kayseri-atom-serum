@@ -505,41 +505,6 @@ export const services = [
     ],
     relatedSlugs: ["antioksidan-tedavileri", "enerji-ve-yorgunluk-serumlari", "atom-serum"],
   },
-  {
-    slug: "ozon-tedavisi",
-    title: "Ozon Tedavisi",
-    metaDescription:
-      "Kayseri ozon tedavisi hakkında güncel hizmet kapsamı, uygunluk, uygulama yöntemi ve randevu bilgisi için sağlık kabinimize ulaşın.",
-    summary:
-      "Kayseri’de ozon tedavisi hakkında yöntem, güncel hizmet kapsamı, kişisel uygunluk ve profesyonel değerlendirme sürecini öğrenin.",
-    overview: [
-      "Ozon tedavisi farklı uygulama yöntemleri için kullanılan bir başlıktır; yöntemlerin kullanım alanları, riskleri ve kanıt düzeyleri birbirinden farklıdır. Ozon gazı solunmamalıdır ve uygulama yalnızca uygun ekipman, yetkin profesyonel değerlendirme ve belirlenmiş yöntemle ele alınmalıdır.",
-      "Ozon uygulaması standart tıbbi tedavilerin yerine geçmez ve her sağlık durumu için uygun değildir. Kayseri’de ozon tedavisinin güncel olarak sunulup sunulmadığını, hangi yöntemin kullanıldığını ve uygunluk koşullarını randevu oluşturmadan önce sağlık kabinimizden teyit edebilirsiniz.",
-    ],
-    assessmentPoints: [
-      "Düşünülen uygulama yönteminin açıkça tanımlanması ve gerekçesi",
-      "Mevcut hastalıklar, kullanılan ilaçlar ve özel risk durumları",
-      "Yetkin uygulama koşulları, enfeksiyon kontrolü ve takip planı",
-    ],
-    faqs: [
-      {
-        question: "Ozon tedavisi tek bir yöntem midir?",
-        answer:
-          "Hayır. Farklı uygulama yöntemleri bu adla anılabilir. Yöntem, amaç, riskler ve kanıt düzeyi uygulama öncesinde net biçimde açıklanmalıdır.",
-      },
-      {
-        question: "Ozon solunarak uygulanabilir mi?",
-        answer:
-          "Ozon gazının solunması zararlıdır. Uygulama yalnızca tanımlı yöntemlerle ve yetkin sağlık profesyonelleri tarafından değerlendirilmelidir.",
-      },
-      {
-        question: "Kayseri ozon tedavisi sunuluyor mu?",
-        answer:
-          "Güncel hizmet kapsamını ve kullanılan yöntemi telefon veya WhatsApp üzerinden sağlık kabinimizden randevu öncesinde teyit edebilirsiniz.",
-      },
-    ],
-    relatedSlugs: ["antioksidan-tedavileri", "glutatyon-tedavisi", "nad-tedavisi"],
-  },
 ] as const satisfies readonly Service[];
 
 export type ServiceSlug = (typeof services)[number]["slug"];

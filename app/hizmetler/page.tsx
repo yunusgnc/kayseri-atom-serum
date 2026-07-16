@@ -109,7 +109,7 @@ export default function ServicesPage() {
           <div className="w-layout-blockcontainer container w-container">
             <div className="service-cta-card">
               <div>
-                <span className="h4-heading">Erciyesevler / Kocasinan</span>
+                <span className="h4-heading">Sahabiye / Kocasinan</span>
                 <h2 className="h2-heading">Hangi hizmetin uygun olduğunu birlikte değerlendirelim</h2>
               </div>
               <Link href="/#iletisim" className="common-button w-button">Bilgi ve Randevu Alın</Link>

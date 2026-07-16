@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Erciyesevler Atom Serum | Kayseri Sağlık Kabini",
     description:
-      "Erciyesevler, Kocasinan ve Kayseri bölgesinde sağlık kabini hizmetleri hakkında bilgi ve randevu iletişimi.",
+      "Sahabiye, Kocasinan ve Kayseri bölgesinde sağlık kabini hizmetleri hakkında bilgi ve randevu iletişimi.",
     url: "/",
   },
   robots: { index: true, follow: true },
@@ -76,7 +76,7 @@ export default function HomePage() {
                 <div className="h4-heading bg-color reveal">Kayseri Sağlık Kabini</div>
                 <h1 className="h1-heading reveal">Erciyesevler Atom Serum Sağlık Kabini</h1>
                 <p className="paragraph-large reveal">
-                  Erciyesevler, Kocasinan ve Kayseri bölgesinde sağlık kabini hizmetlerinin kapsamı hakkında bilgi almak ve randevu talebinizi iletmek için bize ulaşın.
+                  Sahabiye, Kocasinan ve Kayseri bölgesinde sağlık kabini hizmetlerinin kapsamı hakkında bilgi almak ve randevu talebinizi iletmek için bize ulaşın.
                 </p>
                 <div className="hero-button-div reveal">
                   <Link href="/#iletisim" className="common-button button-outline button-right-margin w-button">
@@ -93,12 +93,12 @@ export default function HomePage() {
               <div className="trusted-client-heading-div">
                 <div className="h4-heading client-logo-heading">Erciyesevler Atom Serum</div>
                 <div className="location-separator" aria-hidden="true">•</div>
-                <div className="h4-heading client-logo-heading">Erciyesevler / Kocasinan</div>
+                <div className="h4-heading client-logo-heading">Sahabiye / Kocasinan</div>
               </div>
               <div className="brand-logo-div local-facts">
                 <a href={site.phoneHref} className="local-fact"><strong>Telefon</strong><span>{site.phoneDisplay}</span></a>
                 <a href={site.whatsapp} target="_blank" rel="noopener noreferrer" className="local-fact"><strong>WhatsApp</strong><span>Mesaj Gönderin</span></a>
-                <div className="local-fact"><strong>Adres</strong><span>İpek Diamond Sitesi No: 11/C</span></div>
+                <div className="local-fact"><strong>Adres</strong><span>Sahabiye, Arda Sk.</span></div>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
               <div className="col w-col w-col-6">
                 <SectionTitle eyebrow="Hakkımızda" title="Erciyesevler Atom Serum Sağlık Kabini" />
                 <p className="paragraph-large">
-                  Erciyesevler Atom Serum, Erciyesevler Mahallesi’ndeki sağlık kabini adresinde bilgi ve randevu talepleriniz için iletişim sağlar. Sunulan uygulamalar ve uygunluk hakkında güncel bilgiyi doğrudan işletmeden alabilirsiniz.
+                  Erciyesevler Atom Serum, Sahabiye Mahallesi’ndeki sağlık kabini adresinde bilgi ve randevu talepleriniz için iletişim sağlar. Sunulan uygulamalar ve uygunluk hakkında güncel bilgiyi doğrudan işletmeden alabilirsiniz.
                 </p>
                 <div className="hero-button-div">
                   <Link href="/#iletisim" className="common-button button-outline w-button">İletişime Geçin</Link>
@@ -164,7 +164,7 @@ export default function HomePage() {
                   <div className="service-icon-div service-card-6 expertise-symbol" aria-hidden="true">⌖</div>
                   <div className="expertise-detail-div">
                     <h3 className="h3-heading expertise-card-heading">Açık Adres Bilgisi</h3>
-                    <p className="paragraph">Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi, İpek Diamond Sitesi No: 11/C, 38030 Kocasinan / Kayseri.</p>
+                    <p className="paragraph">{site.address}</p>
                   </div>
                 </div>
               </div>

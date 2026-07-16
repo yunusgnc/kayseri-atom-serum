@@ -7,11 +7,11 @@ export const site = {
   telephone: "+905386976973",
   whatsapp:
     "https://wa.me/905386976973?text=Merhaba%2C%20Erciyesevler%20Atom%20Serum%20hizmetleri%20hakk%C4%B1nda%20bilgi%20ve%20randevu%20almak%20istiyorum.",
-  streetAddress: "Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi, İpek Diamond Sitesi No: 11/C",
-  postalCode: "38030",
+  streetAddress: "Sahabiye, Arda Sk.",
+  postalCode: "38015",
   locality: "Kocasinan",
   region: "Kayseri",
-  address: "Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi, İpek Diamond Sitesi No: 11/C, 38030 Kocasinan / Kayseri",
+  address: "Sahabiye, Arda Sk., 38015 Kocasinan/Kayseri",
 } as const;
 
 export const routes = [
@@ -25,7 +25,7 @@ export const faqs = [
   {
     question: "Erciyesevler Atom Serum nerede bulunuyor?",
     answer:
-      "Erciyesevler Atom Serum Sağlık Kabini; Erciyesevler Mahallesi, Ferruha Güpgüp Caddesi, İpek Diamond Sitesi No: 11/C, 38030 Kocasinan / Kayseri adresinde yer alır.",
+      "Erciyesevler Atom Serum Sağlık Kabini; Sahabiye, Arda Sk., 38015 Kocasinan/Kayseri adresinde yer alır.",
   },
   {
     question: "Bilgi ve randevu için nasıl iletişime geçebilirim?",

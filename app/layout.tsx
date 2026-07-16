@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: "Erciyesevler Atom Serum | Kayseri Sağlık Kabini",
     description:
-      "Erciyesevler, Kocasinan ve Kayseri bölgesinde sağlık kabini hizmetleri hakkında bilgi ve randevu için Erciyesevler Atom Serum ile iletişime geçin.",
+      "Sahabiye, Kocasinan ve Kayseri bölgesinde sağlık kabini hizmetleri hakkında bilgi ve randevu için Erciyesevler Atom Serum ile iletişime geçin.",
     url: "/",
     images: [
       {

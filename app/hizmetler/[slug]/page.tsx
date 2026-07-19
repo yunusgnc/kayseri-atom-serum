@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   if (!service) return {};
 
   const title = service.slug === "atom-serum"
-    ? "Erciyesevler Atom Serum Uygulaması | Sağlık Kabini"
+    ? "Kayseri Atom Serum Uygulaması | Sağlık Kabini"
     : `Kayseri ${service.title} | Atom Serum Sağlık Kabini`;
   const canonical = `/hizmetler/${service.slug}`;
 
@@ -76,14 +76,6 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       name: site.businessName,
       url: site.url,
       telephone: site.telephone,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: site.streetAddress,
-        postalCode: site.postalCode,
-        addressLocality: site.locality,
-        addressRegion: site.region,
-        addressCountry: "TR",
-      },
     },
   };
 
@@ -122,7 +114,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             </nav>
             <div className="service-hero-layout">
               <div className="service-hero-content reveal">
-                <div className="h4-heading bg-color">Kayseri / Kocasinan</div>
+                <div className="h4-heading bg-color">Kayseri</div>
                 <h1 className="h1-heading">Kayseri {service.title}</h1>
                 <p className="paragraph-large">{service.summary}</p>
                 <div className="service-trust-points" aria-label="Hizmet yaklaşımımız">
@@ -140,10 +132,6 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 <h2>{service.title}</h2>
                 <p>Uygunluk, güncel hizmet kapsamı ve randevu için doğrudan sağlık kabinimizle görüşün.</p>
                 <a href={site.phoneHref} className="service-card-phone">{site.phoneDisplay}</a>
-                <div className="service-location-line">
-                  <span aria-hidden="true">⌖</span>
-                  <address>{site.address}</address>
-                </div>
               </aside>
             </div>
           </div>
@@ -225,7 +213,6 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
               <div>
                 <span className="h4-heading">Kayseri {service.title}</span>
                 <h2 className="h2-heading">Bilgi ve randevu için bize ulaşın</h2>
-                <p>{site.address}</p>
               </div>
               <div className="service-cta-actions">
                 <a href={site.phoneHref} className="common-button w-button">{site.phoneDisplay}</a>

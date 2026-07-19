@@ -9,35 +9,35 @@ export function Footer() {
       <div className="footer-detail-div">
         <div className="w-layout-blockcontainer container w-container">
           <div className="w-layout-grid footer-grid">
-            <div className="footer-detail">
+            <div className="footer-detail footer-brand">
               <BrandLogo footer />
               <p className="paragraph footer-paragraph">
-                Erciyesevler Atom Serum Sağlık Kabini, Sahabiye ve Kocasinan başta olmak üzere Kayseri bölgesinde bilgi ve randevu talepleriniz için iletişim sağlar.
+                Kayseri’de serum ve destek uygulamaları için bilgi ve randevu.
               </p>
-              <a href={site.phoneHref} className="footer-contact-link">{site.phoneDisplay}</a>
-              <a href={site.whatsapp} target="_blank" rel="noopener noreferrer" className="footer-contact-link">WhatsApp ile yazın</a>
             </div>
+
             <div className="footer-detail">
-              <h2 className="h3-heading footer-heading">Hızlı Bağlantılar</h2>
-              {routes.map((route) => (
-                <Link href={route.href} className="paragraph footer-text-link" key={route.href}>
-                  {route.label}
+              <h2 className="h3-heading footer-heading">Bağlantılar</h2>
+              <nav className="footer-nav" aria-label="Footer menü">
+                {routes.map((route) => (
+                  <Link href={route.href} className="paragraph footer-text-link" key={route.href}>
+                    {route.label}
+                  </Link>
+                ))}
+                <Link href="/#iletisim" className="paragraph footer-text-link">
+                  İletişim
                 </Link>
-              ))}
-              <Link href="/#iletisim" className="paragraph footer-text-link">İletişim</Link>
+              </nav>
             </div>
-            <div className="footer-detail">
-              <h2 className="h3-heading footer-heading">Hızlı İletişim</h2>
-              <a href={site.phoneHref} className="paragraph footer-text-link">Telefonla Arayın</a>
-              <a href={site.whatsapp} target="_blank" rel="noopener noreferrer" className="paragraph footer-text-link">WhatsApp ile Yazın</a>
-              <Link href="/#iletisim" className="paragraph footer-text-link">Bilgi ve Randevu</Link>
-            </div>
-            <div className="footer-detail">
-              <h2 className="h3-heading footer-heading">İletişim Bilgileri</h2>
-              <address className="paragraph footer-address">
-                Sağlık Kabini - Erciyesevler Atom Serum<br />
-                {site.address}
-              </address>
+
+            <div className="footer-detail footer-contact">
+              <h2 className="h3-heading footer-heading">İletişim</h2>
+              <a href={site.phoneHref} className="footer-contact-link">
+                {site.phoneDisplay}
+              </a>
+              <a href={site.whatsapp} target="_blank" rel="noopener noreferrer" className="footer-contact-link">
+                WhatsApp ile yazın
+              </a>
               <div className="footer-information-form">
                 <NewsletterForm />
               </div>
@@ -47,7 +47,7 @@ export function Footer() {
       </div>
       <div className="copyright-div">
         <div className="w-layout-blockcontainer w-container">
-          <p className="copyright-text">© {new Date().getFullYear()} Erciyesevler Atom Serum. Tüm hakları saklıdır.</p>
+          <p className="copyright-text">© {new Date().getFullYear()} Kayseri Atom Serum. Tüm hakları saklıdır.</p>
         </div>
       </div>
     </footer>

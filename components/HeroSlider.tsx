@@ -6,19 +6,19 @@ import { useRef, useState } from "react";
 const slides = [
   {
     src: "/images/hero-serum-hazirligi.webp",
-    alt: "Erciyesevler Atom Serum sağlık kabininde serum hazırlığı",
+    alt: "Kayseri Atom Serum sağlık kabininde serum hazırlığı",
     width: 1148,
     height: 1370,
   },
   {
     src: "/images/hero-serum-uygulamasi.webp",
-    alt: "Erciyesevler Atom Serum sağlık kabininde serum uygulaması",
+    alt: "Kayseri Atom Serum sağlık kabininde serum uygulaması",
     width: 1148,
     height: 1371,
   },
   {
     src: "/images/hero-saglik-danismanligi.webp",
-    alt: "Erciyesevler Atom Serum sağlık danışmanlığı görüşmesi",
+    alt: "Kayseri Atom Serum sağlık danışmanlığı görüşmesi",
     width: 1148,
     height: 1370,
   },

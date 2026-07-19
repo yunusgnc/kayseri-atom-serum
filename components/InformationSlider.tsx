@@ -5,8 +5,7 @@ import { useRef, useState } from "react";
 const cards = [
   { title: "Telefon", text: "0538 697 69 73 numarasını arayarak güncel bilgi isteyebilirsiniz." },
   { title: "WhatsApp", text: "WhatsApp üzerinden hizmet kapsamı ve randevu süreci hakkında yazabilirsiniz." },
-  { title: "Konum", text: "Sağlık kabini Sahabiye, Arda Sk., 38015 Kocasinan/Kayseri adresindedir." },
-  { title: "Hizmet Bölgesi", text: "Ana hizmet bölgesi Kayseri'dir; ayrıntılar için doğrudan iletişime geçebilirsiniz." },
+  { title: "Hizmet Bölgesi", text: "Kayseri’de hizmet verilmektedir. Konum için telefon veya WhatsApp ile iletişime geçin." },
   { title: "Randevu", text: "Uygunluk ve randevu bilgisi telefon veya WhatsApp üzerinden paylaşılır." },
   { title: "Güncel Bilgi", text: "Çalışma saatleri ve hizmet detayları için sağlık kabininden teyit alabilirsiniz." },
 ] as const;

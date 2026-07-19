@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kayseri Serum ve Destek Uygulamaları",
     description:
-      "Erciyesevler Atom Serum Sağlık Kabini'nin serum, vitamin, mineral ve destek uygulamaları hakkında ayrıntılı bilgi alın.",
+      "Kayseri Atom Serum Sağlık Kabini'nin serum, vitamin, mineral ve destek uygulamaları hakkında ayrıntılı bilgi alın.",
     url: "/hizmetler",
     type: "website",
   },
@@ -34,7 +34,7 @@ const breadcrumbJsonLd = {
 const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Erciyesevler Atom Serum Hizmetleri",
+  name: "Kayseri Atom Serum Hizmetleri",
   itemListElement: services.map((service, index) => ({
     "@type": "ListItem",
     position: index + 1,
@@ -71,10 +71,6 @@ export default function ServicesPage() {
                 <span className="service-hero-card-eyebrow">15 ayrı hizmet sayfası</span>
                 <h2>Bilgiye kolayca ulaşın</h2>
                 <p>Her hizmet için kapsamı, değerlendirme sürecini ve merak edilenleri ayrı ayrı hazırladık.</p>
-                <div className="service-location-line">
-                  <span aria-hidden="true">⌖</span>
-                  <address>{site.address}</address>
-                </div>
               </aside>
             </div>
           </div>
@@ -109,7 +105,7 @@ export default function ServicesPage() {
           <div className="w-layout-blockcontainer container w-container">
             <div className="service-cta-card">
               <div>
-                <span className="h4-heading">Sahabiye / Kocasinan</span>
+                <span className="h4-heading">Kayseri</span>
                 <h2 className="h2-heading">Hangi hizmetin uygun olduğunu birlikte değerlendirelim</h2>
               </div>
               <Link href="/#iletisim" className="common-button w-button">Bilgi ve Randevu Alın</Link>

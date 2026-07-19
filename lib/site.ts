@@ -1,17 +1,12 @@
 export const site = {
-  name: "Erciyesevler Atom Serum",
-  businessName: "Erciyesevler Atom Serum Sağlık Kabini",
+  name: "Kayseri Atom Serum",
+  businessName: "Kayseri Atom Serum Sağlık Kabini",
   url: "https://kayseriatomserum.com",
   phoneDisplay: "0538 697 69 73",
   phoneHref: "tel:+905386976973",
   telephone: "+905386976973",
   whatsapp:
-    "https://wa.me/905386976973?text=Merhaba%2C%20Erciyesevler%20Atom%20Serum%20hizmetleri%20hakk%C4%B1nda%20bilgi%20ve%20randevu%20almak%20istiyorum.",
-  streetAddress: "Sahabiye, Arda Sk.",
-  postalCode: "38015",
-  locality: "Kocasinan",
-  region: "Kayseri",
-  address: "Sahabiye, Arda Sk., 38015 Kocasinan/Kayseri",
+    "https://wa.me/905386976973?text=Merhaba%2C%20Kayseri%20Atom%20Serum%20hizmetleri%20hakk%C4%B1nda%20bilgi%20ve%20randevu%20almak%20istiyorum.",
 } as const;
 
 export const routes = [
@@ -23,9 +18,9 @@ export const routes = [
 
 export const faqs = [
   {
-    question: "Erciyesevler Atom Serum nerede bulunuyor?",
+    question: "Kayseri Atom Serum nerede bulunuyor?",
     answer:
-      "Erciyesevler Atom Serum Sağlık Kabini; Sahabiye, Arda Sk., 38015 Kocasinan/Kayseri adresinde yer alır.",
+      "Kayseri Atom Serum Sağlık Kabini Kayseri’de hizmet verir. Konum ve randevu için 0538 697 69 73 numaralı telefondan veya WhatsApp üzerinden iletişime geçebilirsiniz.",
   },
   {
     question: "Bilgi ve randevu için nasıl iletişime geçebilirim?",
@@ -40,7 +35,7 @@ export const faqs = [
   {
     question: "Hizmet bölgesi neresidir?",
     answer:
-      "Ana hizmet bölgesi Kayseri'dir. Konum ve hizmet kapsamı hakkında güncel bilgi almak için doğrudan sağlık kabiniyle iletişime geçebilirsiniz.",
+      "Hizmet bölgemiz Kayseri’dir. Konum ve randevu için sağlık kabiniyle iletişime geçebilirsiniz.",
   },
   {
     question: "Çalışma saatlerini nereden öğrenebilirim?",
